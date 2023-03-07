@@ -1,0 +1,96 @@
+/* seletor {
+    propriedade: valor;
+
+}
+*/
+
+body{
+    background-color: #3C2A21;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+div{
+    background-color: #EEEEEE;
+    width: 80%;
+    max-width: 340px; /*340 + 60 do padding */
+    text-align: center;
+    margin: 50px auto; /*vertical (top/bottom) horizontal (left/right)*/
+    padding: 30px;  /*espaçamento interno*/
+    border-radius: 10px;
+    
+
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #1A120B;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: #1A120B;
+    font-size: 32px;  /* h1 padrão 32px por default */
+    margin: 0;
+
+}
+
+
+h2{
+    color: #3C2A21;
+    font-size: 20px;
+    margin:0;
+
+}
+
+p{
+    color: #666666;
+    margin-top: 20px;
+    /*font-size: 16px; ja é o tamanho inicial */
+}
+
+
+ul{
+    list-style-type: none; /*retirando o marcador da lista */
+    padding: 0;
+    margin: 30px 0px;
+    /*margni-top: 30px;
+    margin-bottom: 30px;*/
+}
+
+/*todos os links*/
+a{
+    color: #3C2A21;
+}
+
+/*todos os links que estão DENTRO de m <li>*/
+li a{
+    display: block;
+    background-color: #3C2A21; /*cor de fundo*/
+    color: white; /*cor do texto */
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 10px 0;
+    text-decoration: none; /*retira o sublinhado dos links*/
+}
+
+/*ao passar o mouse */
+li a:hover{
+    background-color: #1A120B;
+}
+
+
+/*MEDIA QUERIES */
+
+@media (max-width: 450px){
+
+    h1{
+        font-size: 28px;
+    }
+
+    img{
+        width: 80px;
+        
+    }
+}
